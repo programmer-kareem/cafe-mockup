@@ -99,7 +99,7 @@ function appendMenu(data) {
 
 async function loadMenu() {
   try {
-    const response = await fetch("/data/menu.json", { headers: { Accept: 'application/json' } });
+    const response = await fetch("data/menu.json", { headers: { Accept: 'application/json' } });
     if (!response.ok) throw new Error(`Menu request failed (${response.status}).`);
     const data = await response.json();
     appendMenu(data);
