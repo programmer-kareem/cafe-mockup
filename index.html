@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bloom Coffee House in Lajpat Nagar, Delhi. Slow mornings, strong coffee, and a menu of coffee, classics, and fresh bites.">
+  <meta name="theme-color" content="#121212">
+  <meta property="og:title" content="Bloom Coffee House | Lajpat Nagar, Delhi">
+  <meta property="og:description" content="Slow mornings, strong coffee. Explore the Bloom Coffee House menu and find us in Lajpat Nagar, Delhi.">
+  <meta property="og:type" content="website">
+  <title>Bloom Coffee House | Lajpat Nagar, Delhi</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121212'/%3E%3Ctext x='50%25' y='52%25' dominant-baseline='middle' text-anchor='middle' font-size='44' fill='%23d4a95c' font-family='Georgia,serif'%3EB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css">
+  <script src="/script/script.js" defer></script>
+</head>
+<body>
+  <nav class="topbar" aria-label="Main navigation">
+    <a class="logo" href="#top">Bloom<span> Coffee House</span></a>
+    <div class="desktop-nav" aria-label="Site links">
+      <a href="#menu">Menu</a>
+      <a href="#visit">Location</a>
+      <a href="#visit">Contact</a>
+      <a href="#rate">Rate Us</a>
+    </div>
+    <button class="burger" id="burger" type="button" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="overlay" id="overlay" aria-hidden="true"></div>
+  <aside class="sidebar" id="sidebar" aria-label="Site links" inert>
+    <a href="#menu">Menu</a>
+    <a href="#visit">Location</a>
+    <a href="#visit">Contact</a>
+    <a href="#rate">Rate Us</a>
+  </aside>
+
+  <header class="hero" id="top">
+    <h1>Bloom Coffee House</h1>
+    <p>Slow mornings, strong coffee. Lajpat Nagar, Delhi.</p>
+    <a class="btn" href="#menu">Explore the menu</a>
+  </header>
+
+  <main>
+    <section id="menu" aria-labelledby="menu-title">
+      <h2 id="menu-title">Menu</h2>
+      <p id="menuStatus" class="menu-status" role="status" aria-live="polite">Loading our menu…</p>
+     <div id="menuHost"></div>
+     <!-- <p class="menu-note">Menu is loaded from menu.json. Add a section or edit prices there.</p> -->
+    </section>
+
+    <section id="visit" aria-label="Visit Bloom Coffee House">
+      <div class="info">
+        <div>
+          <h2>Hours</h2>
+          <p>Mon–Fri: 8am – 10pm<br>Sat–Sun: 9am – 11pm</p>
+          <p class="call-us">Call us: +91 99999 99999</p>
+          <p class="whatsapp-link"><a href="https://wa.me/?text=Hi%20Bloom%20Coffee%20House%2C%20I%27d%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer">Open WhatsApp to contact Bloom</a></p>
+          <p class="menu-note">WhatsApp opens a new message. Choose Bloom's chat, or set the café's WhatsApp number in this link.</p>
+        </div>
+        <div>
+          <h2>Find Us</h2>
+          <p>Lajpat Nagar II, New Delhi<br>Instagram: <a href="https://instagram.com/bloomcoffeehouse" target="_blank" rel="noopener noreferrer">@bloomcoffeehouse</a></p>
+        </div>
+      </div>
+      <iframe class="map" title="Map to Bloom Coffee House in Lajpat Nagar II, New Delhi" src="https://maps.google.com/maps?q=Lajpat%20Nagar%20II%20New%20Delhi&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+    </section>
+
+    <section id="rate" aria-labelledby="rate-title">
+      <h2 id="rate-title">Rate Us</h2>
+      <p>Loved your coffee? <a href="https://g.page/r" target="_blank" rel="noopener noreferrer">Leave a Google review</a>, it means a lot.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© <span id="year">2026</span> Bloom Coffee House · Lajpat Nagar II, New Delhi</span>
+      <nav class="footer-links" aria-label="Social and contact links">
+        <a href="https://instagram.com/programmer_kareem" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://wa.me/?text=Hi%20Bloom%20Coffee%20House%2C%20I%27d%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="#visit">Visit us</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

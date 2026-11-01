@@ -1,0 +1,25 @@
+[
+  {
+    "section": "Coffee",
+    "items": [
+      {"name": "Espresso", "price": 90, "desc": "Double shot, dark roast"},
+      {"name": "Cappuccino", "price": 160, "desc": "Rich foam, cocoa dust"},
+      {"name": "Cold Brew", "price": 180, "desc": "18-hour steep, smooth"},
+      {"name": "Latte", "price": 170, "desc": "Silky steamed milk"}
+    ]
+  },
+  {
+    "section": "Classics",
+    "items": [
+      {"name": "Filter Coffee", "price": 80, "desc": "South Indian style"},
+      {"name": "Masala Chai", "price": 60, "desc": "Ginger, cardamom"}
+    ]
+  },
+  {
+    "section": "Bites",
+    "items": [
+      {"name": "Croissant", "price": 120, "desc": "Butter, baked daily"},
+      {"name": "Veg Grilled Sandwich", "price": 140, "desc": "Mint chutney, cheese"}
+    ]
+  }
+]
